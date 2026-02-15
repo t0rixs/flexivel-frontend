@@ -28,6 +28,9 @@ jobs:
         with:
           channel: stable
 
+      - name: Generate firebase_options.dart from secret
+        run: echo "${{ secrets.FIREBASE_OPTIONS_DART }}" | base64 -d > frontend/lib/firebase_options.dart
+
       - name: Install dependencies
         working-directory: frontend
         run: flutter pub get

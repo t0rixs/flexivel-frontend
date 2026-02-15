@@ -7,6 +7,11 @@ frontend/.packages
 frontend/pubspec.lock
 *.iml
 
+# Firebase 設定（API キーを含むため git 管理外）
+frontend/lib/firebase_options.dart
+frontend/android/app/google-services.json
+frontend/ios/Runner/GoogleService-Info.plist
+
 # OS
 .DS_Store
 Thumbs.db
