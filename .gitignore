@@ -1,0 +1,28 @@
+# Flutter / Dart
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/pubspec.lock
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.sublime-workspace
+
+# ビルド成果物
+**/libflutter.so
+**/*.apk
+**/*.aab
+**/*.ipa
+
+# その他
+*.log
+.temp/
+.tmp/
